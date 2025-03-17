@@ -1,0 +1,77 @@
+/* chatpage.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container that holds everything */
+.chatpage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Body grows to fill available space */
+.chatpage > div:nth-child(2) {
+  flex-grow: 1; 
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: auto; 
+}
+
+/* Footer sticks to bottom */
+.footer {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+/* Input styling */
+textarea {
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 3rem;
+  width: 30%;
+  height: 100%;
+  border-color: rgb(196, 194, 194);
+  border-radius: 10px;
+}
+
+/* Button styling */
+.header button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.footer button {
+    padding: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: #4f504f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}

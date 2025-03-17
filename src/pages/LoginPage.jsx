@@ -5,10 +5,16 @@ import "../styles/login.css"
 const LoginPage = () => { 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+  const user = JSON.parse(localStorage.getItem("user"));
+//   console.log(user,"user")
  
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Email:", email, "Password:", password);
+    if(email === user.userEmail && password === user.password){
+        alert("login successfull!" )
+        navigate("/chatpage");
+    }
 
   };
 

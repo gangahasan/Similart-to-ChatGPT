@@ -15,7 +15,7 @@ const SignUp = () => {
     console.log("Email:", email, "Password:", password);
     localStorage.setItem("user" , JSON.stringify(userDetails));
     alert('signUp successfull!')
-    navigate("/login")
+    navigate("/")
 
   };
 
@@ -31,7 +31,7 @@ const SignUp = () => {
       <p>
         User can{" "}
         <span>
-          <Link to="/login">LogIn</Link>
+          <Link to="/">LogIn</Link>
         </span>{" "}
         here!
       </p>
