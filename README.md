@@ -3,9 +3,9 @@
 Check out the live version of the project here:[Similar-to-chatGPT](https://gangahasan.github.io/Similart-to-ChatGPT/)
 
  # 🛠️Features
- ![Login Page](assets/loginpage.png)
+ ![Login Page](/assets/loginpage.png)
 
- ![chat Interface](assets/chatInterface.png)
+ ![Chat Interface](assets/chatInterface.png)
 
  # 📑Technologies Used
 **Frontend:**
