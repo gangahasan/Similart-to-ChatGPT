@@ -22,6 +22,9 @@ body, html {
   background-color: #f0f0f0;
   border-bottom: 1px solid #ddd;
 }
+.body{
+    text-align: center;
+}
 
 /* Body grows to fill available space */
 .chatpage > div:nth-child(2) {
@@ -42,7 +45,7 @@ body, html {
 }
 
 /* Input styling */
-textarea {
+.footer input {
   padding: 5px;
   font-size: 16px;
   margin-bottom: 3rem;
